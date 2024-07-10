@@ -1,0 +1,9 @@
+all: hello
+hello: main.o head.o
+	gcc main.o head.o -o hello
+main.o: main.c
+	gcc -c main.c
+	echo "called compilling\n"
+head.o: head.c
+	gcc -c head.c
+
