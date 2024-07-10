@@ -5,4 +5,6 @@ int main()
 	int c,d;
 	scanf("%d",&c);
 	printf("%d",foo(c));
+	//somethink new
+	map();
 }
