@@ -6,4 +6,5 @@ int main()
 	scanf("%d",&c);
 	printf("%d",foo(c));
 	//somethink new
+	map();
 }
